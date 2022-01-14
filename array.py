@@ -70,5 +70,20 @@ onyx_check = map(check_onyx, wgi)
 print(list(onyx_check))
 
 
+value = []
+
+ticket = [1.09, 3.00, 5.00, 15.00, 0.99, 0.99, 0.99, 0.99, 20.45]
+def check_value(num):
+    value.append(num)
+    return sum(value)
+   
+
+total_check = map(check_value, ticket)
+print(list(total_check))
+    
+
+
+
+
 
 
