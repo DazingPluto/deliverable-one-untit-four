@@ -45,4 +45,30 @@ print("Good Books", good_books)
 
 
 
-wgi2020 = ['']
+wgi = [ 90.7, 88.6, 86.4, 85.5, 85.3, 83.6, 81.9, 82.7, 80.8 ]
+def check_win(num):
+     if num > 85: 
+        return num
+     
+win_results = map(check_win, wgi)
+print(list(win_results))
+
+
+def check_loss(num):
+    if num < 85:
+        return num
+
+loss_result = map(check_loss, wgi)
+print(list(loss_result))
+
+
+def check_onyx(num):
+    if num == 90.7:
+        return num
+
+onyx_check = map(check_onyx, wgi)
+print(list(onyx_check))
+
+
+
+
