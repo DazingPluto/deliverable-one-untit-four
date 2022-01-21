@@ -80,6 +80,18 @@ def check_value(num):
 
 total_check = map(check_value, ticket)
 print(list(total_check))
+
+
+
+
+
+# MORE IN CLASS NOTES
+
+
+
+
+
+
     
 
 
